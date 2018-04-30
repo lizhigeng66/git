@@ -55,3 +55,13 @@ file添加到暂存区后又做了修改，撤销修改就回到了添加到暂�
 `$ git rm file`
 
 从版本库中删除该文件，删除之后务必`commit`
+
+###远程仓库###
+
+`$ git remote add origin git@github.com:lizhigeng66/repo-name.git`
+
+关联远程仓库，repo-name是仓库名称
+
+`git push -u orgin master`
+
+关联之后第一次推送master分支的所有内容。之后每次更新不加`-u`即可推送最新修改。
